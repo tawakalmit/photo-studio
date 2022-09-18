@@ -1,11 +1,14 @@
 import React from 'react'
+import Navbar from '../components/navbar'
+import Drawer from '../components/drawer'
+import Slideshow from '../components/slideshow'
 
 export default function Homepage() {
   return (
     <div>
-        <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
+        <Drawer />
+        <Navbar />
+        <Slideshow />
     </div>
   )
 }
